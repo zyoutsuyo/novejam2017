@@ -1,0 +1,32 @@
+[
+  {
+    "mId": 1,
+    "mName": "回復薬",
+    "mGraphicPath": "Medicine",
+    "mItemType": 0
+  },
+  {
+    "mId": 2,
+    "mName": "火炎瓶",
+    "mGraphicPath": "PetrolBomb",
+    "mItemType": 0
+  },
+  {
+    "mId": 3,
+    "mName": "秘密の鍵",
+    "mGraphicPath": "KeySecret",
+    "mItemType": 0
+  },
+  {
+    "mId": 4,
+    "mName": "金目鯛",
+    "mGraphicPath": "RedSnapper",
+    "mItemType": 0
+  },
+  {
+    "mId": 5,
+    "mName": "マシンガン",
+    "mGraphicPath": "MachineGun",
+    "mItemType": 0
+  }
+]

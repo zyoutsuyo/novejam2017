@@ -354,6 +354,7 @@
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\TweenText.cs" />
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\Tweener.cs" />
      <Compile Include="Assets\Script\Plugins\uGuiNguiLikeTween\Tween\uEnum.cs" />
+     <Compile Include="Assets\Script\SceneController\AnimationCreater.cs" />
      <Compile Include="Assets\Script\SceneController\Event\GetItemEvent.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_1_2.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice2_2_1.cs" />

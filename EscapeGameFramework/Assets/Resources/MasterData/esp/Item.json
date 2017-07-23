@@ -1,0 +1,44 @@
+[
+  {
+    "mId": 1,
+    "mName": "鍵1",
+    "mGraphicPath": "Key1",
+    "mItemType": 0
+  },
+  {
+    "mId": 2,
+    "mName": "鍵2",
+    "mGraphicPath": "Key2",
+    "mItemType": 0
+  },
+  {
+    "mId": 3,
+    "mName": "カード1",
+    "mGraphicPath": "Card1",
+    "mItemType": 0
+  },
+  {
+    "mId": 4,
+    "mName": "カード2",
+    "mGraphicPath": "Card2",
+    "mItemType": 0
+  },
+  {
+    "mId": 5,
+     "mName": "カード3",
+    "mGraphicPath": "Card3",
+    "mItemType": 0
+  },
+  {
+    "mId": 6,
+     "mName": "カード4",
+    "mGraphicPath": "Card4",
+    "mItemType": 0
+  },
+  {
+    "mId": 7,
+     "mName": "カード5",
+    "mGraphicPath": "Card5",
+    "mItemType": 0
+  }
+]

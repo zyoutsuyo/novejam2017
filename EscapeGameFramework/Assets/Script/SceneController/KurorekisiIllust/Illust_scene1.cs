@@ -53,6 +53,9 @@ public class Illust_scene1 : GameScreenEventBase {
 		WindwManager.Instance.OpenStoryWindw (
 			GameManager.Instance.MasterStoryData.Where (m => 7 <= m.id && m.id <= 11).ToList ()
 		).SetEndCallBack (() => {
+			SaveDataManager.Instance.SavedData.mClearMangeGame = true;
+			SaveDataManager.Instance.SaveData();
+			Application.LoadLevel("C_StageSelect");
 			// GameManager.Instance.AddPlayerItem (1);
 		});
 	}

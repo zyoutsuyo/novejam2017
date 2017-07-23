@@ -367,6 +367,13 @@
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice_1_3.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\Alice_1_3_2.cs" />
      <Compile Include="Assets\Script\SceneController\GameScreens\GameScreenPresenter.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust1_1.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust1_2.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust_Sword.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust_scene1.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust_scene2.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Illust_scene3.cs" />
+     <Compile Include="Assets\Script\SceneController\KurorekisiIllust\Scene.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice1.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice2.cs" />
      <Compile Include="Assets\Script\SceneController\SampleGame\Alice3.cs" />

@@ -1,0 +1,20 @@
+[
+  {
+    "mId": 1,
+    "mName": "ソード",
+    "mGraphicPath": "sword",
+    "mItemType": 0
+  },
+  {
+    "mId": 2,
+    "mName": "リング",
+    "mGraphicPath": "2_ring",
+    "mItemType": 0
+  },
+  {
+    "mId": 3,
+    "mName": "秘密の鍵",
+    "mGraphicPath": "3_key",
+    "mItemType": 0
+  }
+]

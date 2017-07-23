@@ -125,9 +125,9 @@ public class GameManager : SingletonMonoBehaviour<GameManager> {
 	/// プレイヤーの所持アイテム状態の更新
 	/// </summary>
 	public void UpDatePlayerItemListSaveData(){
-		SaveDataManager.Instance.SavedData.ItemList = Player.ItemList.Select(i => i.ItemModel.mId).ToList();
-		SaveDataManager.Instance.SavedData.ItemUseList = Player.ItemList.Select(i => i.IsUsed).ToList();
-		SaveDataManager.Instance.SaveData ();
+		//SaveDataManager.Instance.SavedData.ItemList = Player.ItemList.Select(i => i.ItemModel.mId).ToList();
+		//SaveDataManager.Instance.SavedData.ItemUseList = Player.ItemList.Select(i => i.IsUsed).ToList();
+		//SaveDataManager.Instance.SaveData ();
 	}
 	/// <summary>
 	/// プレイヤーの所持アイテム情報を読み込む
@@ -170,10 +170,10 @@ public class GameManager : SingletonMonoBehaviour<GameManager> {
 	/// <param name="x">The x coordinate.</param>
 	/// <param name="y">The y coordinate.</param>
 	public void SetPlayerPostion(int x,int y){
-		SaveDataManager.Instance.SavedData.PlayerPostionX = x;
-		SaveDataManager.Instance.SavedData.PlayerPostionY = y;
+		//SaveDataManager.Instance.SavedData.PlayerPostionX = x;
+		//SaveDataManager.Instance.SavedData.PlayerPostionY = y;
 		//データのセーブ
-		SaveDataManager.Instance.SaveData ();
+		//SaveDataManager.Instance.SaveData ();
 		mGameUIParentPresenter.MapPresenter.SetPlayerMarkerPostion (x,y);
 	}
 

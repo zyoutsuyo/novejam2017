@@ -9,6 +9,7 @@ public class Alice_1_3 : GameScreenEventBase {
 	Image mRabbit;
 	public override void ExcuteEvent ()
 	{
+		print ("!rabbit");
 		StartCoroutine ("ExcuteRabbitEvent");
 	}
 

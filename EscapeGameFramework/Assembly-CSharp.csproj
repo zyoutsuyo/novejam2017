@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\Btitle.cs" />
+     <Compile Include="Assets\Script\CEnd.cs" />
      <Compile Include="Assets\Script\CStageSelect.cs" />
      <Compile Include="Assets\Script\CharaController\CharaController.cs" />
      <Compile Include="Assets\Script\Plugins\Demigiant\DOTween\Examples\Basics.cs" />

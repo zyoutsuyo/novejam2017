@@ -16,4 +16,6 @@ public class GameSaveData{
 	public List<int> ItemList = new List<int>();
 	public List<bool> ItemUseList = new List<bool>();
 	public bool IsEnteredFirstTime = true;
+	public bool mClearESPGame = false;
+	public bool mClearMangeGame = false;
 }

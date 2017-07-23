@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SampleGame/Alice3.unity
+- path: Assets/Scenes/AnimationCreater.unity
   isLoaded: 1
   isActive: 1

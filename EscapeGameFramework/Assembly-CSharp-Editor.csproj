@@ -105,19 +105,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
  <Reference Include="DOTweenEditor">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.Graphs.dll</HintPath>

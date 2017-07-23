@@ -5,8 +5,20 @@ using System.Linq;
 
 public class AnimationCreater : BaseSceneController {
 
-	public bool mFinishedEvent1_3;
-	public bool mFinishedEvent1_1;
+
+	[SerializeField]
+	CharaController mCharaCon;
+
+	bool end1;
+	bool end2;
+	bool end3;
+	bool end4;
+	bool end5;
+	bool end6;
+	bool end7;
+	bool end8;
+	bool end9;
+	bool end10;
 
 	/// <summary>
 	/// ここにイベント実行時の処理が入ってきます
@@ -34,21 +46,8 @@ public class AnimationCreater : BaseSceneController {
 		switch (gameScreen.mId) {
 		//TODO 名前ベタ書きで判定しているがなんか良い方法があったら差し替える
 		case "1_1":
-			if (!mFinishedEvent1_1) {
-				//TODO なんかもっと良さそうな方法がありそうなので後ほど考える
-				StartCoroutine("OpenGameSatrtEvent");
-				//ここにイベント実行
-				mFinishedEvent1_1 = true;
-			}
 			break;
 		case "1_3":
-			if (!mFinishedEvent1_3) {
-				//TODO なんかもっと良さそうな方法がありそうなので後ほど考える
-				gameScreen.gameObject.GetComponent<Alice_1_3> ().ExcuteEvent ();
-				//ここにイベント実行
-				mFinishedEvent1_3 = true;
-			}
-
 			break;
 		default:
 			break;
@@ -56,25 +55,42 @@ public class AnimationCreater : BaseSceneController {
 	}
 
 	IEnumerator OpenGameSatrtEvent(){
+		mCharaCon.SetCharaFace(CharaFaceType.NORMAL);
 		yield return new WaitForSeconds (1.0f);
 		WindwManager.Instance.OpenStoryWindw (
-			GameManager.Instance.MasterStoryData.Where(m=>m.id >= 1&&m.id<= 2).ToList()
-		);
-		while (WindwManager.Instance.IsOpenStoryWindow) {
-			//Windowが開いている間はループして待機
+			GameManager.Instance.MasterStoryData.Where(m=>m.id >= 1&&m.id<= 3).ToList()
+		).SetEndCallBack(()=>{
+			end1 = true;
+		});
+		while (!end1) {
 			yield return null;
 		}
-		//ここにうさぎが走りさるイベントを入れる
-		var currentScreen = GameScreenManager.Instance.CurrentGameScreen;
-		currentScreen.ExcuteEvent ();
+		mCharaCon.SetCharaFace(CharaFaceType.EFFECT);
 		yield return new WaitForSeconds (1.0f);
+		mCharaCon.SetCharaFace(CharaFaceType.DELIGHT);
 		WindwManager.Instance.OpenStoryWindw (
-			GameManager.Instance.MasterStoryData.Where(m=>m.id == 3).ToList()
-		);
+			GameManager.Instance.MasterStoryData.Where(m=>m.id >= 4&&m.id<= 4).ToList()
+		).SetEndCallBack(()=>{
+			end2 = true;
+		});
+		while (!end2) {
+			yield return null;
+		}
+		mCharaCon.SetCharaFace(CharaFaceType.ANGER);
+		WindwManager.Instance.OpenStoryWindw (
+			GameManager.Instance.MasterStoryData.Where(m=>m.id >= 5&&m.id<= 7).ToList()
+		).SetEndCallBack(()=>{
+			end3 = true;
+		});
+		while (!end3) {
+			yield return null;
+		}
+
 	}
 
 	// Use this for initialization
 	void Start () {
+		StartCoroutine ("OpenGameSatrtEvent");
 	}
 
 	// Update is called once per frame

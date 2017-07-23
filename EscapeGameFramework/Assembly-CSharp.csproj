@@ -46,8 +46,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Btitle.cs" />
+     <Compile Include="Assets\Script\CStageSelect.cs" />
+     <Compile Include="Assets\Script\CharaController\CharaController.cs" />
      <Compile Include="Assets\Script\Plugins\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Script\Plugins\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Script\Plugins\EditPrefabs.cs" />
      <Compile Include="Assets\Script\Plugins\EscapeGameFrameworkScripts\EventTrigger\GameEvent.cs" />
      <Compile Include="Assets\Script\Plugins\EscapeGameFrameworkScripts\EventTrigger\ItemEvent.cs" />
      <Compile Include="Assets\Script\Plugins\EscapeGameFrameworkScripts\GameDef.cs" />
@@ -394,16 +398,16 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="DOTween">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="DOTween43">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween43.dll</HintPath>
  </Reference>
  <Reference Include="DOTween46">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="DOTween50">
- <HintPath>/Users/user/EscapeGameFramework/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
+ <HintPath>/Users/user/Desktop/Novejam2017/novejam2017/novejam2017/EscapeGameFramework/Assets/Script/Plugins/Demigiant/DOTween/DOTween50.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

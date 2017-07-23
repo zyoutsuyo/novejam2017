@@ -13,7 +13,7 @@ public class CStageSelect : MonoBehaviour {
 		Application.LoadLevel ("");
 	}
 	public void GotoManga(){
-		Application.LoadLevel ("");
+		Application.LoadLevel ("Illust1");
 	}
 
 	// Use this for initialization
